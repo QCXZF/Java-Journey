@@ -17,12 +17,11 @@
 ☆☆☆☆☆ 
 ## 配置 **环境变量** (在系统变量做修改,所有用户都能用)
 
-- 1.Path 最后面加上 ;C:\Program Files (x86)\Java\jdk1.8.0_91\bin (;与前面的路径相隔)
-- 2.也可新建变量 JAVA_HOME, 变量值 C:\Program Files (x86)\Java\jdk1.8.0_91
-- 3.在 Path 的值最后加上 ;%JAVA_HOME%\bin  (可在命令行里输入 echo %JAVA_HOME% 查看配置的环境变量)
-- 4.CLASSPATH .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
-- 5.或者 .;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\tools.jar
-  - ☆ 注:一定要加 . → 可找到当前路径下的class
+- 1. Path 最后面加上 ;C:\Program Files (x86)\Java\jdk1.8.0_91\bin (;与前面的路径相隔)
+  - 或者新建变量 JAVA_HOME, 变量值 C:\Program Files (x86)\Java\jdk1.8.0_91 ,并在 Path 的值最后加上 ;%JAVA_HOME%\bin  (可在命令行里输入 echo %JAVA_HOME% 查看配置的环境变量)
+- 2. CLASSPATH 最后面加上  .;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\tools.jar
+  - 如果设置了JAVA_HOME,也可加上  .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+  - ☆ 注:开头一定要加 . → 可找到当前路径下的class
 
 ---
 
