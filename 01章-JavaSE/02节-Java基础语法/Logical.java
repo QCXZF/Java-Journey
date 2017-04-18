@@ -4,10 +4,10 @@ public class Logical
 	{
 		boolean a,b,c;
 		a = true; b = false;
-		c = a^b;				// a, b²»Í¬ÔòÎª true
+		c = a^b;				// a, bä¸åŒåˆ™ä¸º true
 		System.out.println(c);
 
-		System.out.println((a==false) && (b==false));	// ¶ÌÂ·Óë,µÚÒ»¸ö±í´ïÊ½Îªfalse,µÚ¶ş¸ö²»ÔÙ¼ÆËã
-		System.out.println((a==true) || (b==true));		// ¶ÌÂ·»ò,µÚÒ»¸ö±í´ïÊ½Îªtrue,µÚ¶ş¸ö²»ÔÙ¼ÆËã
+		System.out.println((a==false) && (b==false));	// çŸ­è·¯ä¸,ç¬¬ä¸€ä¸ªè¡¨è¾¾å¼ä¸ºfalse,ç¬¬äºŒä¸ªä¸å†è®¡ç®—
+		System.out.println((a==true) || (b==true));		// çŸ­è·¯æˆ–,ç¬¬ä¸€ä¸ªè¡¨è¾¾å¼ä¸ºtrue,ç¬¬äºŒä¸ªä¸å†è®¡ç®—
 	}
 }

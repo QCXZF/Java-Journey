@@ -1,3 +1,5 @@
+# 02节-Java基础语法
+
 ## 一、Java标识符 命名规则
 
 - 1.必须由 **字母**、 **_**、 **$**、 **数字** 组成
@@ -114,7 +116,7 @@ double  |     8Byte      | -1.798E308~1.798e308
     
     * Ⅵ **整型** 常量默认为 **int** 类型
 
-* -> [TestConvert.java 源码](/TestConvert.java)
+* -> [TestConvert.java 源码](/01章-JavaSE/02节-Java基础语法/TestConvert.java)
 
 ---
 
@@ -124,7 +126,7 @@ double  |     8Byte      | -1.798E308~1.798e308
 
 ![](http://img1.51cto.com/attachment/200812/2/27212_1228215942rNg8.png)
 
-- 注意 异或, **短路与/或** 与 **与/或** 的区别 -> [Logical.java 源码](/Logical.java)
+- 注意 异或, **短路与/或** 与 **与/或** 的区别 -> [Logical.java 源码](/01章-JavaSE/02节-Java基础语法/Logical.java)
 
 ### 2.运算符优先级 (不需要记, 直接用括号)
 
@@ -140,9 +142,9 @@ double  |     8Byte      | -1.798E308~1.798e308
 
 - ### 2.break & Continue 语句
   - break语句用于终止某个语句块的执行，用在循环语句体中，可以强行退出循环
-    - -> [TestBreak.java 源码](/TestBreak.java)
+    - -> [TestBreak.java 源码](/01章-JavaSE/02节-Java基础语法/TestBreak.java)
   - continue语句用在循环语句体中，用于跳过当前循环 continue语句后的循环过程，并开始下一次循环过程
-    - -> [TestContinue.java 源码](/TestContinue.java)
+    - -> [TestContinue.java 源码](/01章-JavaSE/02节-Java基础语法/TestContinue.java)
 
 - 3.switch 语句
 
@@ -153,7 +155,7 @@ switch( 只能是 int 以及能转换为 int 的类型即表达式 ){
     default : ...
 }
 ```
-- [TestSwitch.java 源码](/TestSwitch.java)
+- [TestSwitch.java 源码](/01章-JavaSE/02节-Java基础语法/TestSwitch.java)
 
 - 注:
   - 1. 小心 case穿透, 推荐使用break语句
@@ -169,7 +171,7 @@ switch( 只能是 int 以及能转换为 int 的类型即表达式 ){
 ### --- 以下面一段程序说明 ↓
 
 
-* -> [Test.java 源码](/Test.java)
+* -> [Test.java 源码](/01章-JavaSE/02节-Java基础语法/Test.java)
 
 ```java
 public class Test

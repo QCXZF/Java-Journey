@@ -5,7 +5,7 @@ public class TestBreak
 	int stop = 4;
 	for(int i = 1; i <= 10; i++)
 	{
-	    // µ± iµÈÓÚstopÊ±, ÍË³öµ±Ç°Ñ­»·
+	    // å½“ iç­‰äºŽstopæ—¶, é€€å‡ºå½“å‰å¾ªçŽ¯
 	    if( i == stop ) break;
 	    System.out.println("i = " + i);
 	}

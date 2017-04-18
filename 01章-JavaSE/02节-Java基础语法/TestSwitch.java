@@ -7,9 +7,9 @@ public class TestSwitch
 		{
 			case 8 :
 				System.out.println("A");
-				break;	// ·ÀÖ¹case´©Í¸
+				break;	// é˜²æ­¢caseç©¿é€
 			case 2:
-			case 3:		// 2 or 3Ê±Ö´ĞĞ
+			case 3:		// 2 or 3æ—¶æ‰§è¡Œ
 				System.out.println("B");
 				break;
 			default:

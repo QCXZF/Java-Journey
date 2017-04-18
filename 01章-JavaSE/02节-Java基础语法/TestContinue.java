@@ -5,7 +5,7 @@ public class TestContinue
 	int stop = 4;
 	for(int i = 1; i <= 10; i++)
 	{
-	    // µ± iµÈÓÚstopÊ±, Ìø³ö´Ë´ÎÑ­»·
+	    // å½“ iç­‰äºŽstopæ—¶, è·³å‡ºæ­¤æ¬¡å¾ªçŽ¯
 	    if( i == stop ) continue;
 	    System.out.println("i = " + i);
 	}
