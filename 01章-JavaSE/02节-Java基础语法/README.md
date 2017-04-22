@@ -50,7 +50,7 @@
   - **基本**数据类型变量
   - **引用**数据类型变量
 
-![](images/Variable classification.gif)
+![](images/Variable%20classification.gif)
 
 ---
 
@@ -124,13 +124,13 @@ double  |     8Byte      | -1.798E308~1.798e308
 
 ### 1.Java常用运算符:
 
-![](images/Operator types.png)
+![](images/Operator%20types.png)
 
 - 注意 **异或**, **短路与/短路或** 与 **与/或** 的区别 -> [Logical.java 源码](src/Logical.java)
 
 ### 2.运算符优先级 (不需要记, 直接用括号)
 
-![](images/Operator priority.jpg)
+![](images/Operator%20priority.jpg)
 
 ---
 
@@ -166,7 +166,7 @@ switch( 只能是 int 以及能转换为 int 的类型即表达式 ){
 
 ## 九、程序执行过程
 
-![](images/Memory execution process.jpg)
+![](images/Memory%20execution%20process.jpg)
 
 ### --- 以下面一段程序说明 ↓
 
