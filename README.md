@@ -30,7 +30,7 @@
 
 # 联系作者
 
-- [QQ](http://shang.qq.com/email/stop/email_stop.html?qq=1069723864)
+- [QQ](http://wpa.qq.com/msgrd?v=3&uin=1069723864&site=qq&menu=yes)
 - [Bilibili](http://space.bilibili.com/6988203/)
 - [Weibo](http://weibo.com/u/5454971458)
 
