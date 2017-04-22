@@ -19,10 +19,10 @@
 ☆☆☆☆☆ 
 ## 配置 **环境变量** (在系统变量做修改,所有用户都能用)
 
-- 1. Path 最后面加上 ;C:\Program Files (x86)\Java\jdk1.8.0_91\bin (;与前面的路径相隔)
-  - 或者新建变量 JAVA_HOME, 变量值 C:\Program Files (x86)\Java\jdk1.8.0_91 ,并在 Path 的值最后加上 ;%JAVA_HOME%\bin  (可在命令行里输入 echo %JAVA_HOME% 查看配置的环境变量)
-- 2. CLASSPATH 最后面加上  .;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\tools.jar
-  - 如果设置了JAVA_HOME,也可加上  .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+- 1. Path 最后面加上 `;C:\Program Files (x86)\Java\jdk1.8.0_91\bin` (;与前面的路径相隔)
+  - 或者新建变量 JAVA_HOME, 变量值 `C:\Program Files (x86)\Java\jdk1.8.0_91` ,并在 Path 的值最后加上 `;%JAVA_HOME%\bin`  (可在命令行里输入 echo %JAVA_HOME% 查看配置的环境变量)
+- 2. CLASSPATH 最后面加上  `.;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\lib\tools.jar`
+  - 如果设置了JAVA_HOME,也可加上  `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar`
   - ☆ 注:开头一定要加 . → 可找到当前路径下的class
 
 ---
@@ -30,7 +30,7 @@
 ## 检验配置是否正确
 
 - 1.win+R 输入 cmd, 将路径定位到当前路径下
-- 2.执行 javac HelloWorld.java (javac 编译命令)
+- 2.执行 `javac HelloWorld.java` (javac 编译命令)
 - 3.当前路径下再输入 dir 会发现当前路径下多了个 HelloWorld.class 文件 (编译生成的文件)
-- 4.再执行 java HelloWorld 执行该编译文件 (java 执行命令)
+- 4.再执行 `java HelloWorld` 执行该编译文件 (java 执行命令)
 - 5.看是否打印出 HelloWorld (打印出来即配置完成)
