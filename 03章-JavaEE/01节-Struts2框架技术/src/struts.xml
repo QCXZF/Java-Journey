@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="p1" namespace="/" extends="struts-default">	<!-- namespace不写可能会404 -->
+		<!-- name的值必须为用户请求过来的，class对应处理该请求的动作类，method为该类中执行的方法 -->
+		<action name="hello" class="com.cdut.web.action.HelloAction" method="sayHello">
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+</struts>
