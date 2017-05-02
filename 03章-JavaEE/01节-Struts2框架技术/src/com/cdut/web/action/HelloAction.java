@@ -1,22 +1,23 @@
 package com.cdut.web.action;
 /**
- * Struts2µÄÈëÃÅ°¸Àı
+ * Struts2çš„å…¥é—¨æ¡ˆä¾‹
  * @author QCXZF
  *
  */
-public class HelloAction {	// ¶¯×÷Àà
-	
+public class HelloAction {	// åŠ¨ä½œç±»
+
 	/**
-	 * ÔÚ¶¯×÷ÀàÖĞÖ¸¶¨µÄ¶¯×÷·½·¨ (±ØĞëÊÇÍ¨¹ıÓÃ»§ÇëÇó¹ıÀ´µÄ)
-	 * ¶¯×÷·½·¨µÄÊéĞ´ÒªÇó:
-	 * 		1.¶¼ÊÇ publicµÄ
-	 * 		2.·µ»ØÖµ±ØĞëÊÇÒ»¸öString
-	 * 		3.±ØĞëÃ»ÓĞ²ÎÊı
+	 * åœ¨åŠ¨ä½œç±»ä¸­æŒ‡å®šçš„åŠ¨ä½œæ–¹æ³• (å¿…é¡»æ˜¯é€šè¿‡ç”¨æˆ·è¯·æ±‚è¿‡æ¥çš„)
+	 * åŠ¨ä½œæ–¹æ³•çš„ä¹¦å†™è¦æ±‚:
+	 * 		1.éƒ½æ˜¯ publicçš„
+	 * 		2.è¿”å›å€¼å¿…é¡»æ˜¯ä¸€ä¸ªString
+	 * 		3.å¿…é¡»æ²¡æœ‰å‚æ•°
 	 * @return
 	 */
 	public String sayHello(){
-		System.out.println("HelloActionµÄsayHello·½·¨Ö´ĞĞÁË");
-		return "success";	// ÓëÅäÖÃÎÄ¼şÖĞresultµÄnameÈ¡ÖµÏà¶ÔÓ¦
+		System.out.println("HelloActionçš„sayHelloæ–¹æ³•æ‰§è¡Œäº†");
+		return "success";	// ä¸é…ç½®æ–‡ä»¶ä¸­resultçš„nameå–å€¼ç›¸å¯¹åº”
+		
 	}
 
 }
