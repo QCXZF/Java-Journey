@@ -141,14 +141,14 @@
 ## 五、html框架标签及其他
 - ### 1、框架标签 ：
 ```
-  	<frameset rows="80,*"&gt;	// 按行分隔，*代表剩余部分
+  	<frameset rows="80,*">	// 按行分隔，*代表剩余部分
   		→ 注 : frameset 与 body 不能同时存在
-  		<frame name="名称" src="加载页面地址"&gt;
+  		<frame name="名称" src="加载页面地址">
   			→ 方便 <a target> 进行定位
-  		<frameset cols="150,*"&gt;	// 按列分隔
+  		<frameset cols="150,*">	// 按列分隔
   			<frame ...>
   			<frame ...>
-  	&lt;/frameset>
+  	</frameset>
 ```
 - ### 2、其他标签 ：
   - #### ① &lt;meta&gt; :
