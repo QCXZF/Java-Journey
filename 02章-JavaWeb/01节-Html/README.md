@@ -140,30 +140,31 @@
 
 ## 五、html框架标签及其他
 - ### 1、框架标签 ：
-  	<frameset rows="80,*">	// 按行分隔，*代表剩余部分
+```
+  	<frameset rows="80,*"&gt;	// 按行分隔，*代表剩余部分
   		→ 注 : frameset 与 body 不能同时存在
-  		<frame name="名称" src="加载页面地址">
+  		<frame name="名称" src="加载页面地址"&gt;
   			→ 方便 <a target> 进行定位
-  		<frameset cols="150,*">	// 按列分隔
+  		<frameset cols="150,*"&gt;	// 按列分隔
   			<frame ...>
   			<frame ...>
-  	</frameset>
-
+  	&lt;/frameset>
+```
 - ### 2、其他标签 ：
-  	① <meta> :
-  		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">	// 关键字,可通过SEO搜索到
-  		<meta http-equiv="description" content="this is my page">			// 描述
-  		<meta http-equiv="content-type" content="text/html; charset=UTF-8">	// 文本的类型,用UTF-8进行解析(固定写法,重点)
-  	② <link> :
-  		<link rel="stylesheet" type="text/css" href="">	// 引入CSS
+  - #### ① &lt;meta&gt; :
+  	- &lt;meta http-equiv="keywords" content="keyword1,keyword2,keyword3"&gt;	// 关键字,可通过SEO搜索到
+  	- &lt;meta http-equiv="description" content="this is my page"&gt;			// 描述
+  	- &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;	// 文本的类型,用UTF-8进行解析(固定写法,重点)
+  - #### ② &lt;link&gt; :
+  	-	&lt;link rel="stylesheet" type="text/css" href=""&gt;	// 引入CSS
   			href：引入css文件的地址
-  	③ <script> :
-  		<script type="text/javascript" src=""></script>	// 引入JavaScript
-  			src：js的文件地址
+  - #### ③ &lt;script&gt; :
+  	- &lt;script type="text/javascript" src=""&gt;&lt;/script&gt;	// 引入JavaScript
+  		- src：js的文件地址
 
 - ### 3、特殊字符 :
-  	&nbsp;	空格
-  	&gt;	大于号
-  	&lt;	小于号
-  	&copy;	版权符号
-  	&reg;	注册符号
+  -	&+nbsp;	空格
+  -	&+gt;	大于号
+  -	&+lt;	小于号
+  -	&+copy;	版权符号
+  -	&+reg;	注册符号
